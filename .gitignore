@@ -2,7 +2,6 @@
 node_modules
 package-lock.json
 dist
-build
 example/bundle.js
 example/index.js
 storybook/
