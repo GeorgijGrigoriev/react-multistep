@@ -28,6 +28,8 @@
     "url": "https://github.com/srdjan/react-multistep/issues"
   },
   "dependencies": {
+    "grunt": "^1.6.1",
+    "liftup": "^3.0.1"
   },
   "devDependencies": {
     "@types/react": "18.3.1",
