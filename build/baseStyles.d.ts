@@ -23,10 +23,12 @@ declare namespace topNav {
     let paddingTop: string;
     let listStyleType: string;
     let borderBottom: string;
+    let alignItems: string;
 }
 declare namespace topNavStep {
     let color: string;
     let cursor: string;
+    let flex: number;
 }
 declare namespace prevButton {
     let color_1: string;

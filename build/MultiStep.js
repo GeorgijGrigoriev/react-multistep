@@ -59,8 +59,6 @@ function MultiStep(props) {
     if (!children)
         throw TypeError("Error: Application has no children Components configured");
     const styles = typeof props.styles === 'undefined' ? baseStyles_1.BaseStyles : props.styles;
-    const prevButtonCustomProps = props.nextButtonCustomProps ? props.nextButtonCustomProps : {};
-    const nextButtonCustomProps = props.nextButtonCustomProps ? props.nextButtonCustomProps : {};
     const [activeChild, setActive] = (0, react_1.useState)(0);
     const [childIsValid, setChildIsValid] = (0, react_1.useState)(false);
     const [topNavState, setTopNavState] = (0, react_1.useState)(getTopNavStyles(activeChild, children.length));
