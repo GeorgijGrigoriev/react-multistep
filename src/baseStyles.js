@@ -13,10 +13,12 @@ const topNav = {
   paddingTop: '4rem',
   listStyleType: 'none',
   borderBottom: '1px solid silver',
+  alignItems: 'stretch',
 }
 const topNavStep = {
   color: 'silver',
   cursor: 'pointer',
+  flex: 1,
 }
 const todo = {
   color: 'gray'

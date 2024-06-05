@@ -10,7 +10,10 @@ export interface MultiStepStyles {
     nextButton?: React.CSSProperties;
 }
 export interface MultiStepProps {
-    styles: MultiStepStyles;
+    activeStep?: number;
+    styles?: MultiStepStyles;
+    nextButtonCustomProps?: any;
+    prevButtonCustomProps?: any;
     children: React.ReactElement[];
 }
 export interface ChildState {
